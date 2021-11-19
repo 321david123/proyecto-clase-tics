@@ -14,7 +14,6 @@ body {
 }
 .navigation {
     align-items: center;
-    background-color: var(--first-color);
     display: flex;
     height: 60px;
     justify-content: space-between;
