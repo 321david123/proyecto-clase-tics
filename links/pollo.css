@@ -1,0 +1,14 @@
+:root {
+    --first-color: #add8e6;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background-image: linear-gradient(to bottom, #add8e6, #c6e0f0, #dee9f7, #f1f3fb, #ffffff);
+}
