@@ -1,5 +1,5 @@
 :root {
-    --first-color: #add8e6;
+    --primary-color: #add8e6;
 }
 * {
     padding: 0;
@@ -12,3 +12,116 @@ html {
 body {
     background-image: linear-gradient(to bottom, #add8e6, #c6e0f0, #dee9f7, #f1f3fb, #ffffff);
 }
+.navigation {
+    align-items: center;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    padding: 20px;
+    /* border-bottom: 1px solid gray; */
+}
+li {
+    list-style: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    padding-right: 10px;
+    padding-left: 6px;
+    border-right: solid black 1px;
+  }
+li:nth-child(5) {
+    border-right: none;
+}
+.logo {
+    font-family: 'M PLUS 1', sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000000;
+    padding-left: 20px;
+}
+.logo:hover {
+    color: #a52a2a;
+}
+a:hover {
+    color: #a52a2a;
+    transition: .2s linear;
+    -webkit-transition: .2s linear;
+    -moz-transition: .2s linear;
+}
+.links {
+    text-decoration: none;
+    color: #000000;
+}
+h1 {
+    text-align: center;
+    margin-top: 6%;
+    font-family: "Mohave", sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 55px;
+}
+.box {
+    margin: 10% 25%;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+p {
+    font-size: 2.1rem;
+    font-family: helvetica, arial;
+}
+h2 {
+    padding-bottom: 20px;
+    font-family: "Merriweather";
+}
+.image-container {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+img {
+    width: 85%;
+    border-radius: 20px;
+}
+.Animation {
+    animation-name: Animation;
+    animation-duration: 3s;
+  }
+  @keyframes Animation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+.Animation-h1 {
+    animation-name: Animation-h1;
+    animation-duration: 2s;
+    }
+    @keyframes Animation-h1 {
+        from {
+            transform: translate3d(0, -100%, 0);
+            -webkit-transform: translate3d(0, -100%, 0);
+            opacity: 0;
+        }
+        to {
+            transform: translate3d(0, 0, 0);
+            -webkit-transform: translate3d(0, 0, 0);
+            opacity: 1;
+        }
+    }
+.Animation-text {
+    animation-name: Animation-text;
+    animation-duration: 2.3s;
+  }
+@keyframes Animation-text {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -5%, 0);
+      -webkit-transform: translate3d(0, -5%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+      -webkit-transform: translate3d(0, 0, 0);
+    }
+  }
