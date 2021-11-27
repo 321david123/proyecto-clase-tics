@@ -70,10 +70,10 @@ a:hover {
   grid-row: 2 / 7;
   border-radius: 3px;
 }
-.Animation-content1{
-  box-shadow: 2px 8px 19px -3px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 2px 8px 19px -3px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 2px 8px 19px -3px rgba(0, 0, 0, 0.75);
+.Animation-content1 {
+  box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.7);
   grid-column: 4 / 8;
   grid-row: 4 / 6;
   border-radius: 5px;
@@ -87,41 +87,48 @@ a:hover {
   z-index: -1;
   border-radius: 3px;
 }
-.Animation-content2{
-  box-shadow: 2px 8px 19px -3px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 2px 8px 19px -3px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 2px 8px 19px -3px rgba(0, 0, 0, 0.75);
+.Animation-content2 {
+  box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.7);
   grid-column: 9 / 12;
   grid-row: 3 / 7;
   border-radius: 5px;
-  background-image: linear-gradient(to left, #a1c4fd, #a3cefe, #aad8fd, #b5e1fc, #c2e9fb);
+  background-image: linear-gradient(
+    to left,
+    #a1c4fd,
+    #a3cefe,
+    #aad8fd,
+    #b5e1fc,
+    #c2e9fb
+  );
   font-size: 2rem;
 }
 .box3 {
-    border: solid 4px #000000;
-    grid-column: 7 / 10;
-    grid-row: 1 / 2;
-    z-index: -1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.9rem;
-    font-family: "Merriweather";
+  border: solid 4px #000000;
+  grid-column: 7 / 10;
+  grid-row: 1 / 2;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  font-family: "Merriweather";
 }
 .text {
-    grid-column: 3;
-    grid-row: 6;
+  grid-column: 3;
+  grid-row: 6;
 }
 p {
-    display: flex;
-    text-align: center;
-    padding: 15px;
+  display: flex;
+  text-align: center;
+  padding: 15px;
 }
 img {
-    width: 100%;
-    overflow: hidden;
-    padding: 3px;
-    border-radius: 10px 10px 10px 10px;
+  width: 100%;
+  overflow: hidden;
+  padding: 3px;
+  border-radius: 10px 10px 10px 10px;
 }
 .Animation {
   animation-name: Animation;
@@ -150,19 +157,19 @@ img {
   }
 }
 .Animation-content2 {
-    animation-name: Animation-content2;
-    animation-duration: 2.5s;
+  animation-name: Animation-content2;
+  animation-duration: 2.5s;
 }
 @keyframes Animation-content2 {
-    from {
-        transform: translate3d(50%, -10%, 0);
-        -webkit-transform: translate3d(50%, -10%, 0);
-    }
-    to {
-      transform: translate3d(0, 0, 0);
-      -webkit-transform: translate3d(0, 0, 0);
-    }
+  from {
+    transform: translate3d(50%, -10%, 0);
+    -webkit-transform: translate3d(50%, -10%, 0);
   }
+  to {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+}
 .Animation-text {
   animation-name: Animation-text;
   animation-duration: 2.3s;

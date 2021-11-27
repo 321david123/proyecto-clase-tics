@@ -41,6 +41,7 @@ li:nth-child(5) {
 }
 .logo:hover {
     color: #a52a2a;
+    border-bottom: black 1px solid;
 }
 a:hover {
     color: #a52a2a;
