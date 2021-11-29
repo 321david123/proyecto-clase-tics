@@ -127,6 +127,7 @@ a:hover {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+    text-decoration: underline;
   }
   .box3 {
     border: solid 4px #000000;
@@ -144,7 +145,7 @@ a:hover {
     grid-row: 6;
   }
   p {
-    font-size: 2rem;
+    font-size: 2.3rem;
     padding: 0 20px 0 20px;
   }
   img {
