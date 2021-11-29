@@ -79,10 +79,35 @@ a:hover {
 }
 .grid {
     display: grid;
-    grid-template-columns: 350px 100vw;
-    /* grid-template-rows: 100px 100px 100px; */
-    height: 920px;
+    grid-template-columns: 25% 94vw;
+    grid-template-rows: 40% 60%;
     gap: 20px;
+}
+.one {
+    /* background-color: white; */
+    margin-left: 30px;
+    display: flex;
+    place-items: center;
+    text-align: center;
+}
+.two {
+    /* background-color: blanchedalmon; */
+    margin-right: 400px;
+    display: flex;
+    padding: 5%;
+}
+.three {
+    /* background-color: gray; */
+    display: flex;
+    text-align: center;
+    place-items: center;
+    margin-left: 30px;
+}
+.four {
+    /* background-color: whitesmoke; */
+    /* margin-bottom: 15px; */
+    margin-right: 400px;
+    padding: 10%;
 }
 h1 {
     text-align: center;
@@ -108,8 +133,9 @@ h2 {
     padding-bottom: 30px;
 }
 img {
-    width: 75%;
-    border-radius: 20px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 70px;
 }
 .Animation {
     animation-name: Animation;
