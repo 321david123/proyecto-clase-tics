@@ -77,37 +77,14 @@ a:hover {
     text-decoration: none;
     color: #000000;
 }
+.box {
+    border: 1px black solid;
+    margin: 2.35%;
+}
 .grid {
+    height: 700px;
     display: grid;
-    grid-template-columns: 25% 94vw;
-    grid-template-rows: 40% 60%;
-    gap: 20px;
-}
-.one {
-    /* background-color: white; */
-    margin-left: 30px;
-    display: flex;
-    place-items: center;
-    text-align: center;
-}
-.two {
-    /* background-color: blanchedalmon; */
-    margin-right: 400px;
-    display: flex;
-    padding: 5%;
-}
-.three {
-    /* background-color: gray; */
-    display: flex;
-    text-align: center;
-    place-items: center;
-    margin-left: 30px;
-}
-.four {
-    /* background-color: whitesmoke; */
-    /* margin-bottom: 15px; */
-    margin-right: 400px;
-    padding: 10%;
+    grid-template: repeat(400px 400px)
 }
 h1 {
     text-align: center;
