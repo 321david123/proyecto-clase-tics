@@ -6,6 +6,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+.a{
+    text-decoration: underline;
+    color: rgb(87, 31, 144);
+}
 html {
     font-size: 62.5%;
 }
