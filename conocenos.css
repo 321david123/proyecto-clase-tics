@@ -1,6 +1,9 @@
 body{
     background-color: rgba(255, 199, 94, 0.7);
 }
+section{
+    margin: 10%;
+}
 .cont{
     display: flex;
 }
@@ -9,4 +12,8 @@ body{
 }
 img{
     width: 20%;
+    text-align: center;
+}
+.img{
+    text-align: center;
 }
