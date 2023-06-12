@@ -1,0 +1,12 @@
+body{
+    background-color: rgba(255, 199, 94, 0.7);
+}
+.cont{
+    display: flex;
+}
+.two{
+    margin-top: 120px;
+}
+img{
+    width: 20%;
+}
