@@ -17,3 +17,17 @@ img{
 .img{
     text-align: center;
 }
+h1{
+    font-family: 'DM Sans', sans-serif;
+
+}
+.h2{
+    margin-right: 40px;
+}
+.h1{
+    margin-right: 5px;
+}   
+p{
+    font-size: 1.25rem;
+    font-family: 'DM Sans', sans-serif;
+}

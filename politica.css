@@ -1,0 +1,19 @@
+body{
+    background-color: rgba(255, 199, 94, 0.7);
+    font-family: 'DM Sans', sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 6rem;
+}
+ul{
+    font-size: 2rem;
+}
+li{
+    margin: 30px;
+}
+.cont{
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}

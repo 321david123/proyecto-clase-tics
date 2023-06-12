@@ -240,7 +240,22 @@ footer{
     font-size: 2rem;
     margin-top: 15px;
 }
-
+.textint{
+    text-align: center;
+}
+#ast{
+    margin-left: 80px;
+    padding-left: 60px;
+}
+.grande{
+    font-size: 6rem;
+    margin-bottom: 4%;
+}
+.horario{
+    text-align: center;
+    font-size: 3rem;
+    margin: 30px;
+}
 .Animation {
     animation-name: Animation;
     animation-duration: 3s;
